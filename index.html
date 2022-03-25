@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <style>
+        @keyframes color_change {
+            0% {
+                color: blue;
+            }
+            10% {
+                color: #8e44ad;
+            }
+            20% {
+                color: #1abc9c;
+            }
+            30% {
+                color: #d35400;
+            }
+            40% {
+                color: blue;
+            }
+            50% {
+                color: #34495e;
+            }
+            60% {
+                color: blue;
+            }
+            70% {
+                color: #2980b9;
+            }
+            80% {
+                color: #f1c40f;
+            }
+            90% {
+                color: #2980b9;
+            }
+            100% {
+                color: pink;
+            }
+        }
+        
+        body {
+            background-color: black;
+            animation: color_change 5s infinite alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1> Ramadan Kareem</h1>
+        <h2>Mohamed Atif Fahmy</h2>
+    </center>
+
+    <div style="position: absolute;left:50%;transform: translate(-50%);">
+
+
+        <script>
+            var v = 25;
+            for (var i = 1; i < 50; i += 4) {
+
+                for (var j = v; j > 0; j--) {
+                    document.write(" &nbsp ");
+                }
+                for (var x = 1; x <= i; x++) {
+                    document.write("*");
+                    if (x == i) {
+                        document.write("<br>");
+                    }
+
+                }
+
+                v -= 2;
+
+
+            }
+            var z = 2;
+            for (var i = 47; i > 1; i -= 4) {
+                for (var j = z; j > 0; j--) {
+                    document.write("  &nbsp  ");
+                }
+                for (var x = 1; x <= i; x++) {
+                    document.write("*");
+                    if (x == i) {
+                        document.write("<br>");
+                    }
+
+                }
+
+                z += 2;
+
+            }
+
+            var o = 23;
+            for (var i = 5; i <= 33; i += 4) {
+                for (var j = o; j > 0; j--) {
+                    document.write(" &nbsp ");
+                }
+                for (var x = 1; x <= i; x++) {
+                    document.write("*");
+                    if (x == i) {
+                        document.write("<br>");
+                    }
+
+                }
+
+                o -= 2;
+
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
